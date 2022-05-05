@@ -1,5 +1,3 @@
-# Blood-Bank-Management-System
-
 This **Blood Bank Management System Project** is accessible only to a certain **Blood Bank Organization**. The system requires the users to log their registered user credentials in order to gain access to the features and functionalities of the project. User credentials can be only registered by the **Super User/Admin** at **Django's Admin Site**. On this system, users can store, manage, and retrieve easily the blood donations along with some basic information about the donors. Here, the system automatically calculates the total available volume of blood in every blood group. Users can also store, manage, and retrieve records of the blood request. The request records automatically deduct the blood volume availability.
 
 ## **Features**
@@ -38,10 +36,11 @@ Before you get start please watch the video and follow it
 
 -   **Python** _(_I used v3.9.1_)_
 -   **PIP** _(_for python modules installation_)_
+- [Download](https://github.com/naemazam/Blood-Bank-Management-System/archive/refs/heads/main.zip)
 
 ### Setup/Installation
 
-1.  **Download** and  **Extract** the provided source code  `zip`  file.  _(download button is located below)_
+1.  **Download** and  **Extract** the   `zip`  file.  _(rename it **django_bbms**)_
 2.  **Download** and  **Extract** the  `plugins`  files of this project at  **[Download](https://www.dropbox.com/s/uambi4bznj5i0ws/plugins.zip?dl=1)**. Move the extracted plugins folder inside the source code's  **static directory**
 3.  **Open** your  **Terminal/Command Prompt**  window.  _(make sure to add "python" and "pip" in your environment variables)_
 4.  **Change** the  **working directory**  to the extracted source code folder. i.e.  `cd C:\python\django_bbms`
